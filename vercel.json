@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/study/batches", "destination": "/index.html" },
+    { "source": "/_next/:path*", "destination": "https://www.learnxpw.site/_next/:path*" },
+    { "source": "/assets/:path*", "destination": "https://www.learnxpw.site/assets/:path*" },
+    { "source": "/study/:path*", "destination": "https://www.learnxpw.site/study/:path*" },
+    { "source": "/study", "destination": "https://www.learnxpw.site/study" },
+    { "source": "/history", "destination": "https://www.learnxpw.site/history" },
+    { "source": "/contact", "destination": "https://www.learnxpw.site/contact" }
+  ]
+}

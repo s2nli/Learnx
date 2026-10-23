@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
     { "source": "/study/batches", "destination": "/index.html" },
-    { "source": "/:path*", "destination": "https://www.learnxpw.site/:path*" }
-  ]
+    { "source": "/:path*", "destination": "/api/_p?p=/:path*" }
+  ],
+  "functions": { "api/[...path].js": { "maxDuration": 60 } }
 }
